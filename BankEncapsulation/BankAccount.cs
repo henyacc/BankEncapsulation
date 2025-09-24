@@ -7,7 +7,7 @@ public class BankAccount
     public void Deposit(double amount)
     {
         {
-            balance = amount;
+            balance += amount;
         }
     }
     
